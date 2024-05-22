@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Queen</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+<header>
+    <h1>Quiz Queen</h1>
+</header>
+    
+
+    <form>
+        <h2> Quiz Generator</h2>
+        <label for="categories">Categories</label>
+        <select name="categories" id="categories">
+            <option value="0">Random</option>
+        </select>
+        
+        
+        <label for="difficulty">Difficulty</label>
+        <select  name="difficulty" id="difficulty">
+            <option value="0">Random</option>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+       
+        <label for="type">Type</label>
+        <select name="type" id="type">
+        <option value="0">Random</option>
+        <option value="multiple"> Multiple Choice</option>
+        <option value="boolean">True or False</option>
+        </select>
+
+
+        
+        <button type="submit">Create Quiz</button>
+    </form>
+
+    <footer>
+        Created with <span>RAGE</span> by <span>EnduredTimes</span>
+    </footer>
+
+    <div class="modal" id="quizModal">
+        <h3>Question</h3>
+        <ul>Answer</ul>
+        <ul>Answer</ul>
+        <ul>Answer</ul>
+        <ul>Answer</ul>
+    </div>
+
+
+   
+   
+   
+   
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/milk.js"></script>
+    
+</body>
+</html>
